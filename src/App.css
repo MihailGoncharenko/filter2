@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.material-icons {
+  color: #757575;
+  font-size: 40px;
+  background-color: #fff;
+  border: none;
+  margin-left: 95%;
+}
+
+.shopCard {
+  position: relative;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  background-color: #F6F6F6;
+  margin-left: 75px;
+  margin-right: 75px;
+  display: flex;
+  flex-direction: column;
+}
+
+.shopCard .heading {
+  margin-bottom: 10px;
+  z-index: 1;
+}
+
+.shopCard p {
+  z-index: 1;
+}
+
+.shopCard img {
+  position: absolute;
+  left: 25px;
+  width: 300px;
+  height: 300px;
+}
+
+.card {
+  margin-top: 175px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 7px;
+  color: #D53E2D;
+  text-transform: uppercase;
+}
+
+.buttonCard {
+  font-weight: 700;
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  color: #D53E2D;
+  background-color: #F5F5F5;
+  border: 1px solid #D53E2D;
+  text-transform: uppercase;
+}
+
+.shopItem {
+  width: 1500px;
+  height: 95px;
+  margin-bottom: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #F5F5F5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrap_img {
+  position: relative;
+  height: 100px;
+  width: 150px;
+}
+
+.shopItem img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardsView {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.shopItem .heading { 
+  padding-bottom: 5px; 
+}
+
+.shopItem .buttonCart { 
+  margin-right: 20px; 
+}
+
